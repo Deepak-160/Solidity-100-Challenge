@@ -40,3 +40,29 @@ You can compile, deploy, and test these contracts in a few different environment
   ```bash
   npm install --save-dev hardhat
 
+  
+
+  ## Objectives
+
+This project is intended to:
+
+- Build proficiency with Solidity syntax and common patterns
+- Create a reference base of practical examples
+- Serve as a foundation for more advanced contract development
+- Share learnings with the community
+
+---
+
+## Disclaimer
+
+These contracts are **not production-ready** and have not been audited. They may contain bugs, simplifications, or incomplete logic for clarity.
+
+**Do not deploy these contracts to a production environment without performing thorough security reviews and testing.**
+
+---
+
+## Contributing and Feedback
+
+Feedback and contributions are welcome. If you identify improvements, potential issues, or have suggestions, please open an issue or submit a pull request.
+
+
