@@ -1,3 +1,4 @@
+
 Solidity Smart Contract Playground
 This repository is a collection of Solidity smart contracts developed to practice and demonstrate core concepts in Ethereum smart contract development. The examples here cover a range of patterns and features, and are intended for educational and reference purposes.
 ________________________________________
