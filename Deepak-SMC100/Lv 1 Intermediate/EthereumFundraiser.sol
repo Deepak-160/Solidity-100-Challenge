@@ -74,9 +74,11 @@ contract MyContract {
         isActive = false;
     }
 
-    function endEvent() public onlyOwner {
+    function endEvent() public {
         // Mark event as concluded
-        eventEnd = true;
+        if(timeLimit-block.timestamp == 0){
+            eventEnd = true;
+        }
     }
 
     function Refund(address _YourAddress) public returns (string memory) {
@@ -104,4 +106,3 @@ contract MyContract {
         delete contributions;
     }
 }
-
